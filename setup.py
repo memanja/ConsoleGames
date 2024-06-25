@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-'list_games=BrainTease.list_games:list_games',
+            'list_games=BrainTease.list_games:list_games',
             'play-guessing-game=BrainTease.guessing_game:start_game',
             'play-rock-paper=BrainTease.rps:rock_paper_scissors',
 
@@ -23,7 +23,7 @@ setup(
                 'them part of the adventure!',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/memanja/ConsoleGames',  
+    url='https://github.com/memanja/ConsoleGames',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
