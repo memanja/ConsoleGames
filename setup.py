@@ -21,7 +21,7 @@ setup(
                 'them part of the adventure!',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/ConsoleGames',  # Update this with your repository URL
+    url='https://github.com/memanja/ConsoleGames',  
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
