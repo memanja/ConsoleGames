@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='play_it',
+    name='BrainTease',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -10,8 +10,10 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'play-guessing-game=play_it.guessing_game:start_game',
-            'list_games=play_it.list_games:list_games',
+'list_games=BrainTease.list_games:list_games',
+            'play-guessing-game=BrainTease.guessing_game:start_game',
+            'play-rock-paper=BrainTease.rps:rock_paper_scissors',
+
         ],
     },
     author='Manoj Shetty K',
