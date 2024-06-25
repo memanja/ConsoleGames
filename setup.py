@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='BrainTease',
-    version='0.1.0',
+    name='ConsoleFun',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
         'pyfiglet',
@@ -10,9 +10,9 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'list_games=BrainTease.list_games:list_games',
-            'play-guessing-game=BrainTease.guessing_game:start_game',
-            'play-rock-paper=BrainTease.rps:rock_paper_scissors',
+            'list_games=ConsoleFun.list_games:list_games',
+            'play-guessing-game=ConsoleFun.guessing_game:start_game',
+            'play-rock-paper=ConsoleFun.rps:rock_paper_scissors',
 
         ],
     },

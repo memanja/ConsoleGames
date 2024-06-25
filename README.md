@@ -12,7 +12,7 @@ Developed primarily for fun and learning purposes, this collection serves as a p
 You can install the package using pip:
 
 ```bash
-    pip install BrainTease
+    pip install ConsoleFun
 ```
 
 To list all available games and corresponding commands to play the game:
