@@ -20,8 +20,6 @@ To list all available games and corresponding commands to play the game:
 list_games
 ``` 
 
-
-
 <br>
 <b><u>Contact</u></b><br>
 For support or questions, please open an issue in the GitHub repository.
