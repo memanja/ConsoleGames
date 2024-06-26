@@ -7,6 +7,7 @@ setup(
     install_requires=[
         'pyfiglet',
         'tabulate',
+        'prettytable',
     ],
     entry_points={
         'console_scripts': [
